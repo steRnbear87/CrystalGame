@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="assets/css/reset.css">    -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Crystal Game</title>
+</head>
+<body>
+
+<div class="wrapper">
+
+<h1> Crystal Game </h1>
+
+<img src="assets/images/wallet.png" class="walletimage" id="wallet">
+
+ <p>Instructions: click on the Gems below to try to match the amount in the wallet exactly.</p>
+
+ <br>
+
+ <p>If you match the amount in the wallet you get a win, but if you go over, you will lose! Good luck</p>
+
+ <br><hr>
+
+<p id="random-number"> Number: </p>
+
+<p id="current-guess"> Counter: </p>
+
+<p id="wins"> Wins: </p>
+
+<p id="losses"> Losses: </p>
+
+<br><hr>
+
+<div id="crystal-container">
+    
+    <img src="assets/images/red.png" class="crystalimage" id="crystal-red">
+    <img src="assets/images/yellow.png" class="crystalimage" id="crystal-yellow">
+    <img src="assets/images/blue.png" class="crystalimage" id="crystal-blue">
+    <img src="assets/images/green.png" class="crystalimage" id="crystal-green">
+
+</div>
+
+</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>

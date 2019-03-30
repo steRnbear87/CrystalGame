@@ -1,0 +1,34 @@
+.wrapper {
+    width: 600px;
+    height: auto;
+    margin-left: 40px;
+    margin-right: auto;
+    background-color: transparent;
+}
+
+.crystalimage {
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+.walletimage {
+    height: 150px;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+body{
+    font-family: 'Metamorphous', cursive;
+    background-image: url("zelda.jpg");
+    background-size: cover;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+
+}
+
+#crystal-container {
+    background-color: transparent;
+}
